@@ -316,3 +316,31 @@ div#press-release section div.press-release-cards article.press-release-card but
   color: var(--color-white);
   cursor: pointer;
 }
+
+/* Gallery */
+
+div#gallery {
+  display: grid;
+  min-height: 60vh;
+  background-color: var(--color-navy);
+}
+
+div#gallery section {
+  margin: auto;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+div#gallery section h2 {
+  color: var(--color-white);
+}
+
+div#gallery section div.gallery-images {
+  background-color: red;
+  display: flex;
+}
+
+div#gallery section div.gallery-images img {
+  width: 10%;
+  flex: 1;
+}
