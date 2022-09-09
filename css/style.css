@@ -344,3 +344,69 @@ div#gallery section div.gallery-images img {
   width: 10%;
   flex: 1;
 }
+
+/* Events */
+
+div#events {
+  min-height: 100vh;
+  background-color: var(--color-light);
+}
+
+div#events section div.events-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+div#events section div.events-cards article.events-card {
+  background-color: var(--color-white);
+  height: fit-content;
+  border-radius: 0.5rem;
+  box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.1);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+div#events section div.events-cards article.events-card p.event-date {
+  color: var(--color-red);
+  font-size: 1.125rem;
+  text-transform: uppercase;
+  font-weight: var(--font-regular);
+  margin-bottom: 1rem;
+  font-weight: var(--font-semibold);
+}
+
+div#events section div.events-cards article.events-card h4 {
+  color: var(--color-navy);
+  font-size: 1.25rem;
+  font-weight: var(--font-medium);
+  margin-bottom: 0.5rem;
+}
+
+div#events section div.events-cards article.events-card p {
+  font-size: 1rem;
+  font-weight: var(--font-regular);
+  margin-bottom: 1rem;
+}
+
+div#events section div.events-cards article.events-card button {
+  border: 2px solid var(--color-navy);
+  border-radius: 0.5rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  background-color: var(--color-white);
+  color: var(--color-navy);
+  font-weight: var(--font-semibold);
+  display: block;
+  margin-left: auto;
+}
+
+div#events section div.events-cards article.events-card button:hover {
+  background-color: var(--color-navy);
+  color: var(--color-white);
+  cursor: pointer;
+}
