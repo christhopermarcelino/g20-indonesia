@@ -32,6 +32,33 @@ main {
   margin: auto;
 }
 
+/* Template */
+
+header section {
+  max-width: var(--w-7xl);
+  margin: auto;
+}
+
+div#priority-issue section,
+div#workstream section,
+div#press-release section,
+div#events section,
+footer section {
+  max-width: var(--w-7xl);
+  margin: auto;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  color: var(--color-navy);
+  text-align: center;
+  font-weight: var(--font-semibold);
+  margin-bottom: 5rem;
+}
+
 /* Navigation */
 
 nav {
@@ -85,4 +112,13 @@ nav section a.cta-join-us {
 nav section a.cta-join-us:hover {
   background-color: var(--color-white);
   color: var(--color-navy);
+}
+
+/* Header */
+
+header {
+  height: 100vh;
+  background-image: url('../assets/images/banner.png');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
