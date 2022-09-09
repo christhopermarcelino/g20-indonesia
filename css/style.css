@@ -170,3 +170,49 @@ div#priority-issue section div.issue-cards article.issue-card p {
   font-size: 1.25rem;
   line-height: 1.5rem;
 }
+
+/* Workstream */
+
+div#workstream {
+  min-height: 100vh;
+  display: grid;
+}
+
+div#workstream section div.workstream-cards {
+  display: flex;
+  gap: 4rem;
+}
+
+div#workstream section div.workstream-cards article.workstream-card {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  border-radius: 0.5rem;
+}
+
+div#workstream section div.workstream-cards article.workstream-card:first-child {
+  background-color: var(--color-navy);
+}
+
+div#workstream section div.workstream-cards article.workstream-card:last-child {
+  background-color: var(--color-red);
+}
+
+div#workstream section div.workstream-cards article.workstream-card img {
+  width: 25%;
+  margin-bottom: 2rem;
+}
+
+div#workstream section div.workstream-cards article.workstream-card h4 {
+  font-size: 1.5rem;
+  font-weight: var(--font-semibold);
+  margin-bottom: 1rem;
+  color: var(--color-white);
+}
+
+div#workstream section div.workstream-cards article.workstream-card p {
+  font-size: 1rem;
+  color: var(--color-light);
+  line-height: 1.5rem;
+}
