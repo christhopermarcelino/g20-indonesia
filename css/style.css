@@ -31,3 +31,58 @@ body {
 main {
   margin: auto;
 }
+
+/* Navigation */
+
+nav {
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--color-navy-navbar);
+  position: fixed;
+}
+
+nav section {
+  margin: auto;
+  max-width: 80rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav section div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+nav section div a {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  text-decoration: none;
+  color: var(--color-white);
+}
+
+nav section div a:hover {
+  font-weight: var(--font-semibold);
+}
+
+nav section a.cta-join-us {
+  text-decoration: none;
+  border: 1px solid var(--color-light);
+  border-radius: 0.5rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  color: var(--color-white);
+  font-weight: var(--font-bold);
+}
+
+nav section a.cta-join-us:hover {
+  background-color: var(--color-white);
+  color: var(--color-navy);
+}
