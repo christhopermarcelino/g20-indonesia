@@ -410,3 +410,50 @@ div#events section div.events-cards article.events-card button:hover {
   color: var(--color-white);
   cursor: pointer;
 }
+
+/* Footer */
+
+footer {
+  margin-top: 5rem;
+  background-color: var(--color-light);
+}
+
+footer section div.footer-content {
+  display: flex;
+  margin-bottom: 3rem;
+}
+
+footer section div.footer-content article h5 {
+  color: var(--color-grey);
+  font-weight: var(--font-semibold);
+  margin-bottom: 2rem;
+  font-size: 1.25rem;
+}
+
+footer section div.footer-content article:first-child {
+  flex: 3;
+}
+
+footer section div.footer-content article:first-child img {
+  width: 20%;
+  margin-bottom: 1rem;
+}
+
+footer section div.footer-content article:first-child p {
+  line-height: 1.5rem;
+}
+
+footer section div.footer-content article:last-child {
+  flex: 1;
+}
+
+footer section div.footer-content article:last-child p {
+  color: var(--color-lightgrey);
+  margin-bottom: 1rem;
+}
+
+footer section p.footer-copyright {
+  text-align: center;
+  color: var(--color-navy);
+  font-weight: var(--font-semibold);
+}
